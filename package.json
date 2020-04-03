@@ -13,13 +13,23 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
+    "react-sortable-tree": "^2.7.1",
     "typescript": "~3.7.2"
+  },
+  "devDependencies": {
+    "@types/react-sortable-tree": "^0.3.11"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "prettier": {
+    "jsxBracketSameLine": true,
+    "trailingComma": "all",
+    "semi": false,
+    "singleQuote": true
   },
   "eslintConfig": {
     "extends": "react-app"
