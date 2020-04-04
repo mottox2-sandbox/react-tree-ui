@@ -1,12 +1,14 @@
 import React from 'react'
 import './App.css'
 import SortableTree from './SortableTree'
+import DndTree from './dndTree'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <SortableTree />
+        {/* <SortableTree /> */}
+        <DndTree />
       </header>
     </div>
   )
