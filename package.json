@@ -15,6 +15,7 @@
     "react-scripts": "3.4.1",
     "react-sortable-tree": "^2.7.1",
     "react-sortable-tree-theme-file-explorer": "^2.0.0",
+    "ress": "^2.0.4",
     "typescript": "~3.7.2"
   },
   "devDependencies": {

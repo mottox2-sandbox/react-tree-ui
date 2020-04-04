@@ -1,9 +1,24 @@
 .listItem {
-  /* position: relative; */
+  padding: 4px 8px;
+}
+
+.listItem-wrapper {
 }
 
 .draggingItem {
   position: absolute;
   top: 0;
   left: 0;
+  opacity: 0.6;
+}
+
+.target {
+  width: 160px;
+  height: 2px;
+  display: block;
+  cursor: default;
+}
+
+.target.active {
+  background-color: red;
 }
