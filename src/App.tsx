@@ -1,15 +1,15 @@
-import React from 'react';
-import './App.css';
-import Tree from './Tree'
+import React from 'react'
+import './App.css'
+import SortableTree from './SortableTree'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Tree/>
+        <SortableTree />
       </header>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
