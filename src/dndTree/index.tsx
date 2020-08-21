@@ -49,7 +49,7 @@ const DndTree = () => {
 
   return (
     <ul>
-      {dragging} => {target}
+      {dragging} to {target}
       {list.map((item, index) => (
         <div className="listItem-wrapper">
           <span
