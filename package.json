@@ -20,6 +20,7 @@
     "react-scripts": "3.4.3",
     "react-sortable-tree": "^2.8.0",
     "react-sortable-tree-theme-file-explorer": "^2.0.0",
+    "react-spring": "^9.0.0-rc.3",
     "react-use-gesture": "^7.0.15",
     "ress": "^3.0.0",
     "ts-node": "^8.10.2",
